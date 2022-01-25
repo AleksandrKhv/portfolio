@@ -5,6 +5,7 @@ import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Remote from './components/remote_work/Remote';
 import Contacts from './components/сontacts/Contacts';
+import Footer from './components/footer/Footer';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Projects/>
             <Remote/>
             <Contacts/>
+            <Footer/>
         </div>
     );
 }

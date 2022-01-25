@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper_footer {
+    height: 50vh;
+    background-color: aquamarine;
+}
+
+.what_is_this {
+    border: 1px solid;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #45a1ff;
+}
