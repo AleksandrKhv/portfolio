@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AleksandrKhv/portfolio.git/static/css/main.19900a28.css",
-    "main.js": "/AleksandrKhv/portfolio.git/static/js/main.f8d6cf0c.js",
-    "static/js/787.1ed0c42c.chunk.js": "/AleksandrKhv/portfolio.git/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/AleksandrKhv/portfolio.git/index.html",
-    "main.19900a28.css.map": "/AleksandrKhv/portfolio.git/static/css/main.19900a28.css.map",
-    "main.f8d6cf0c.js.map": "/AleksandrKhv/portfolio.git/static/js/main.f8d6cf0c.js.map",
-    "787.1ed0c42c.chunk.js.map": "/AleksandrKhv/portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.19900a28.css",
+    "main.js": "/portfolio/static/js/main.d7950a38.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/portfolio/index.html",
+    "main.19900a28.css.map": "/portfolio/static/css/main.19900a28.css.map",
+    "main.d7950a38.js.map": "/portfolio/static/js/main.d7950a38.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19900a28.css",
-    "static/js/main.f8d6cf0c.js"
+    "static/js/main.d7950a38.js"
   ]
 }
