@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AleksandrKhv/portfolio.git/static/css/main.19900a28.css",
+    "main.js": "/AleksandrKhv/portfolio.git/static/js/main.f8d6cf0c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/AleksandrKhv/portfolio.git/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/AleksandrKhv/portfolio.git/index.html",
+    "main.19900a28.css.map": "/AleksandrKhv/portfolio.git/static/css/main.19900a28.css.map",
+    "main.f8d6cf0c.js.map": "/AleksandrKhv/portfolio.git/static/js/main.f8d6cf0c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/AleksandrKhv/portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19900a28.css",
+    "static/js/main.f8d6cf0c.js"
+  ]
+}
