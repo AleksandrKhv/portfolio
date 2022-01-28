@@ -8,11 +8,11 @@ const Project = (props) => {
         <div className={st.wrapper_project}>
             <div className={st.img}>
                 <a href="#" className={st.btn} >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    look
+                    <span/>
+                    <span/>
+                    <span/>
+                    <span/>
+                    dívat se
                 </a>
                 {/*<button><a href='https://google.com' className={st.btn}>Look</a></button>*/}
             </div>
