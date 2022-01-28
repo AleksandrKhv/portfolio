@@ -7,7 +7,13 @@ const Remote = () => {
         <div className={st.wrapper_remote}>
             <div className={st.remote + ' ' + stContainer.container}>
                 <h2>Consider remote work options</h2>
-               <button><a href="">Write me</a></button>
+                <a href="#" className={st.btn} >
+                    <span/>
+                    <span/>
+                    <span/>
+                    <span/>
+                    Write me
+                </a>
             </div>
         </div>
     );

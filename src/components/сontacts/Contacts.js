@@ -14,7 +14,13 @@ const Contacts = () => {
                         <div><textarea name="" id="" cols="30" rows="10"></textarea></div>
                     </form>
                 </div>
-                <button><a href="">send a message</a></button>
+                <a href="#" className={st.btn} >
+                    <span/>
+                    <span/>
+                    <span/>
+                    <span/>
+                    send a message
+                </a>
             </div>
         </div>
     );

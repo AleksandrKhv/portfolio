@@ -14,7 +14,6 @@ const Project = (props) => {
                     <span/>
                     dívat se
                 </a>
-                {/*<button><a href='https://google.com' className={st.btn}>Look</a></button>*/}
             </div>
             <h3>{props.title}</h3>
             <span className={st.text}>{props.text}</span>
