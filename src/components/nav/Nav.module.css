@@ -3,7 +3,12 @@
     width: 370px;
     display: flex;
     justify-content: space-between;
-    margin-right: 120px;
+    margin: 0 auto;
+
+    list-style-type: none;
+
+    padding: 0;
+
 }
 
 .nav a {
