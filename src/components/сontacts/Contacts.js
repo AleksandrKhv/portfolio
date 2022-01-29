@@ -7,13 +7,11 @@ const Contacts = () => {
         <div className={st.wrapper_contacts}>
             <div className={st.contacts + ' ' + stContainer.container}>
                 <h3>Contacts</h3>
-                <div className={st.message}>
-                    <form action="">
-                        <div><input type="text"/></div>
-                        <div><input type="text"/></div>
-                        <div><textarea name="" id="" cols="30" rows="10"></textarea></div>
+                    <form className={st.message} >
+                        <input type="text"/>
+                        <input type="text"/>
+                        <textarea></textarea>
                     </form>
-                </div>
                 <a href="#" className={st.btn} >
                     <span/>
                     <span/>

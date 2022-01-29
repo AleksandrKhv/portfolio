@@ -4,14 +4,18 @@ import st from './Nav.module.css'
 const Nav = () => {
     return (
         <div className={st.nav}>
-            <a href="">Главная
-                <span/><span/><span/><span/></a>
-            <a href="">Скиллы
-                <span/><span/><span/><span/></a>
-            <a href="">Проекты
-                <span/><span/><span/><span/></a>
-            <a href="">Контакты
-                <span/><span/><span/><span/></a>
+            <a href="#">home
+                <span/><span/><span/><span/>
+            </a>
+            <a href="#">skills
+                <span/><span/><span/><span/>
+            </a>
+            <a href="#">projects
+                <span/><span/><span/><span/>
+            </a>
+            <a href="#">Contacts
+                <span/><span/><span/><span/>
+            </a>
         </div>
     );
 };

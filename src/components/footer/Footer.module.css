@@ -4,13 +4,12 @@
 }
 
 .wrapper_footer {
-    height: 50vh;
     background-color: aquamarine;
 }
 
 .what_is_this {
     border: 1px solid;
-    width: 500px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

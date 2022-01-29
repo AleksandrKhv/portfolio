@@ -1,5 +1,5 @@
 .wrapper_contacts {
-    height: 100vh;
+    min-height: 50vh;
     background-color: mediumaquamarine;
 }
 
@@ -7,13 +7,16 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    display: flex;
 }
-
 .message {
+    border: 1px solid;
+    width: 280px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     text-align: center;
+    justify-content: space-between;
 }
 
 .contacts a {

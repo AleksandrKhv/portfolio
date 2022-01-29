@@ -1,5 +1,5 @@
 .wrapper_projects {
-    height: 100vh;
+    min-height: 100vh;
     background-color: aqua;
 }
 

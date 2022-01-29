@@ -12,7 +12,7 @@ const Project = (props) => {
                     <span/>
                     <span/>
                     <span/>
-                    dívat se
+                    view project
                 </a>
             </div>
             <h3>{props.title}</h3>
