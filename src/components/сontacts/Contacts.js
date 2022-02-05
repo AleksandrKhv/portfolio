@@ -12,7 +12,7 @@ const Contacts = () => {
                         <input type="text" placeholder={'Your e-mail'}/>
                         <textarea placeholder={'write me'}></textarea>
                     </form>
-                <a href="#" className={st.btn} >
+                <a href="#" className={st.btn} type='submit'>
                     <span/>
                     <span/>
                     <span/>
