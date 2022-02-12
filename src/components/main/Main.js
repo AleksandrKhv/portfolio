@@ -13,7 +13,6 @@ const Main = () => {
                     <p>Frontend Developer</p>
                 </div>
                 <div className={st.photo}>
-
                 </div>
             </div>
         </div>
