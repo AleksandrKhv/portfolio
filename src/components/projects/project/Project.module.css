@@ -1,24 +1,37 @@
 
 .wrapper_project {
-    width: 250px;
-    background-color: cornsilk;
+    width: 350px;
+    background-color: #504B4A;
     display: flex;
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.wrapper_project .projectInfo {
+    padding: 25px 20px;
+}
+
+.wrapper_project .projectInfo h3 {
+    color: #FFFFFF;
 }
 
 .img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: mediumaquamarine;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .text {
-
+    color: #CFCFCF;
 }
 
 .img a {

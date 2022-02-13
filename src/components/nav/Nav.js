@@ -4,16 +4,16 @@ import st from './Nav.module.css'
 const Nav = () => {
     return (
         <div className={st.nav}>
-            <a href="#">home
+            <a href={"#home"}>home
                 <span/><span/><span/><span/>
             </a>
-            <a href="#">skills
+            <a href={"#skills"}>skills
                 <span/><span/><span/><span/>
             </a>
-            <a href="#">projects
+            <a href={"#projects"}>projects
                 <span/><span/><span/><span/>
             </a>
-            <a href="#">Contacts
+            <a href={"#Contacts"}>Contacts
                 <span/><span/><span/><span/>
             </a>
         </div>

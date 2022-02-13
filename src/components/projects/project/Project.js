@@ -6,7 +6,7 @@ const Project = (props) => {
 
     return (
         <div className={st.wrapper_project}>
-            <div className={st.img}>
+            <div className={st.img} style={props.style}>
                 <a href={props.web} className={st.btn} >
                     <span/>
                     <span/>
@@ -15,8 +15,10 @@ const Project = (props) => {
                     view project
                 </a>
             </div>
-            <h3>{props.title}</h3>
-            <span className={st.text}>{props.text}</span>
+            <div className={st.projectInfo}>
+                <h3>{props.title}</h3>
+                <span className={st.text}>{props.text}</span>
+            </div>
         </div>
     );
 };

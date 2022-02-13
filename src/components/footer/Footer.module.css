@@ -4,7 +4,11 @@
 }
 
 .wrapper_footer {
-    background-color: aquamarine;
+    background-color: #211F20;
+}
+
+.wrapper_footer .footer h3 {
+    color: #CFCFCF;
 }
 
 .socialIcons {
@@ -34,4 +38,5 @@
 footer {
     display: flex;
     justify-content: center;
+    color: #CFCFCF;
 }

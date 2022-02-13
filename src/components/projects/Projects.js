@@ -2,16 +2,32 @@ import React from 'react';
 import st from './Projects.module.css'
 import stContainer from '../../common/styles/Container.module.css';
 import Project from './project/Project';
+import Title from '../Title/Title';
+import imgCoffee from './../../assets/img/coffee_shop.png'
+import imgTodoList from './../../assets/img/coffee_shop.png'
+import imgBootsShop from './../../assets/img/coffee_shop.png'
 
 const Projects = () => {
+
+    const coffeeShop = {
+        backgroundImage: 'url(' + imgCoffee + ')',
+    };
+    const todoList = {
+        backgroundImage: 'url(' + imgTodoList + ')',
+    };
+    const bootsShop = {
+        backgroundImage: 'url(' + imgBootsShop + ')',
+    };
+
+
     return (
         <div className={st.wrapper_projects}>
             <div className={st.projectContainer + ' ' + stContainer.container}>
-                <h2 className={st.title}>Projects</h2>
+                <Title title={'Projects'}/>
                 <div className={st.projects}>
-                   <Project title={'Coffee shop'} text={'used React TS, React Icons, HTML, CSS'} web={"https://AleksandrKhv.github.io/coffee_web"}/>
-                   <Project title={'name project2'} text={'краткое описание проекта'}/>
-                   <Project title={'name project3'} text={'краткое описание проекта'}/>
+                   <Project style={coffeeShop} title={'Coffee Shop'} text={'used React TS, React Icons, HTML, CSS'} web={"https://AleksandrKhv.github.io/coffee_web"}/>
+                   <Project style={todoList} title={'TodoList'} text={'краткое описание проекта'}/>
+                   <Project style={bootsShop} title={'Boots Shop'} text={'краткое описание проекта'}/>
                 </div>
             </div>
         </div>
