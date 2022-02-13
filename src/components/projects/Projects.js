@@ -4,8 +4,8 @@ import stContainer from '../../common/styles/Container.module.css';
 import Project from './project/Project';
 import Title from '../Title/Title';
 import imgCoffee from './../../assets/img/coffee_shop.png'
-import imgTodoList from './../../assets/img/coffee_shop.png'
-import imgBootsShop from './../../assets/img/coffee_shop.png'
+import imgTodoList from './../../assets/img/todolist.png'
+import imgBootsShop from './../../assets/img/BootsShop.jpg'
 
 const Projects = () => {
 
@@ -18,7 +18,6 @@ const Projects = () => {
     const bootsShop = {
         backgroundImage: 'url(' + imgBootsShop + ')',
     };
-
 
     return (
         <div className={st.wrapper_projects}>

@@ -27,7 +27,6 @@
     border-radius: 10px 10px 0 0;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 .text {
@@ -55,6 +54,10 @@
     0 0 50px #03e9f4,
     0 0 200px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.img a .btn {
+    margin: 200px;
 }
 
 .btn span {
