@@ -1,6 +1,7 @@
 import React from 'react';
 import st from './Footer.module.css'
 import stContainer from '../../common/styles/Container.module.css';
+import reactImg from './../../assets/img/react-brands.svg'
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className={st.footer + ' ' + stContainer.container}>
                 <h3>Aleksandr Khvashchevski</h3>
                 <div className={st.socialIcons}>
-                    <div className={st.socialIcon}></div>
+                    <div className={st.socialIcon}><img src={reactImg} alt={'react_logo'}/></div>
                     <div className={st.socialIcon}></div>
                     <div className={st.socialIcon}></div>
                     <div className={st.socialIcon}></div>

@@ -5,14 +5,14 @@ import Title from '../Title/Title';
 
 const Contacts = () => {
     return (
-        <div className={st.wrapper_contacts}>
+        <div className={st.wrapper_contacts} id={'contacts'}>
             <div className={st.contacts + ' ' + stContainer.container}>
                 <Title title={'Contacts'}/>
-                    <form className={st.message} >
-                        <input type="text" placeholder={'Your name'}/>
-                        <input type="text" placeholder={'Your e-mail'}/>
-                        <textarea placeholder={'write me'}/>
-                    </form>
+                <form className={st.message}>
+                    <input type="text" placeholder={'Your name'}/>
+                    <input type="text" placeholder={'Your e-mail'}/>
+                    <textarea placeholder={'write me'}/>
+                </form>
                 <a href={"#"} className={st.btn} type='submit'>
                     <span/>
                     <span/>
