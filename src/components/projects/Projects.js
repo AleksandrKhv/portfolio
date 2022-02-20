@@ -22,13 +22,19 @@ const Projects = () => {
     return (
         <div className={st.wrapper_projects} id={'projects'}>
             <div className={st.projectContainer + ' ' + stContainer.container}>
-                {/*<div className={`${st.projectContainer} ${stContainer.container}`}>*/}
                 <Title title={'Projects'}/>
                 <div className={st.projects}>
-                    <Project style={coffeeShop} title={'Coffee Shop'} text={'used React TS, React Icons, HTML, CSS'}
+                    <Project style={coffeeShop}
+                             title={'Coffee Shop'}
+                             text={'used React TS, React Icons, HTML, CSS'}
                              web={"https://AleksandrKhv.github.io/coffee_web"}/>
-                    <Project style={todoList} title={'TodoList'} text={'краткое описание проекта'}/>
-                    <Project style={bootsShop} title={'Shoe store'} text={'краткое описание проекта'}/>
+                    <Project style={todoList}
+                             title={'TodoList'}
+                             text={'краткое описание проекта'}
+                             web={"https://aleksandrkhv.github.io/simple_todo_list"}/>
+                    <Project style={bootsShop}
+                             title={'Shoe store'}
+                             text={'краткое описание проекта'}/>
                 </div>
             </div>
         </div>
