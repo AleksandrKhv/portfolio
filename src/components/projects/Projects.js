@@ -30,7 +30,7 @@ const Projects = () => {
                              web={"https://AleksandrKhv.github.io/coffee_web"}/>
                     <Project style={todoList}
                              title={'TodoList'}
-                             text={'краткое описание проекта'}
+                             text={'used React (Hooks), HTML, CSS, localStorage'}
                              web={"https://aleksandrkhv.github.io/simple_todo_list"}/>
                     <Project style={bootsShop}
                              title={'Shoe store'}
